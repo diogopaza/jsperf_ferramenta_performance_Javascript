@@ -7,5 +7,32 @@ o map e o forEach</p>
 <p>Link da ferramenta : <a href="https://jsperf.com/"></a> </p>
 <p>Muito simples de utilizar basta colar os códigos na seção <em>code snippets to compare</em> e também preencher alguns campos simples como nome do teste entre outros.</p>
 <p>Após isso clica em <em>save test case</em> e manda executar o teste e a comparação será realizada.</p>
+
+
+<p>Abaixo o array para o teste:</p>
+<br><br>
+
+//ARRAY PARA O TESTE
+let arrayTeste =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,
+18,19,20,21,22,23,24,25,26,27,28,29,30]
+
+//FOREACH
+
+    arrayTeste.forEach((num, index) =>{
+       return arrayTeste[index] = num * 2
+
+    })
+
+//MAP
+
+let doubled = arrayTeste.map( num =>{
+    return num * 2 
+}) 
+
+<br><br>
 <p>O map também pode ser concatenado com outros, como no exemplo abaixo onde o filter
 é usado junto para buscar os números que multiplicados por 2 no array sejam menor que 10</p>
+<br><br>
+
+let menor10 = arrayTeste.map( num => num * 2 ).filter(num => num <10)
+console.log(menor10)
