@@ -9,10 +9,9 @@ o map e o forEach</p>
 <p>Após isso clica em <em>save test case</em> e manda executar o teste e a comparação será realizada.</p>
 
 
-<p>Abaixo o array para o teste:</p>
-<br><br>
+<p>Abaixo
 
-//ARRAY PARA O TESTE
+//ARRAY PARA O TESTE<br>
 let arrayTeste =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,
 18,19,20,21,22,23,24,25,26,27,28,29,30]
 
@@ -25,14 +24,14 @@ let arrayTeste =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,
 
 //MAP
 
-let doubled = arrayTeste.map( num =>{
-    return num * 2 
-}) 
+    let doubled = arrayTeste.map( num =>{
+        return num * 2 
+    }) 
 
-<br><br>
+
 <p>O map também pode ser concatenado com outros, como no exemplo abaixo onde o filter
 é usado junto para buscar os números que multiplicados por 2 no array sejam menor que 10</p>
-<br><br>
 
-let menor10 = arrayTeste.map( num => num * 2 ).filter(num => num <10)
-console.log(menor10)
+
+    let menor10 = arrayTeste.map( num => num * 2 ).filter(num => num <10)
+    console.log(menor10)
