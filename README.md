@@ -4,7 +4,7 @@
 o map e o forEach</p>
 <p>O método forEach manipula os dados reais ou seja, ele altera os dados originais. Enquanto o map() retorna um novo array com os novos valores não alterando os originais.</p>
 <h2>Exemplo</h2>
-<p>Link da ferramenta : <a href="https://jsperf.com/"></a> </p>
+<p>Link da ferramenta : <a href="https://jsperf.com/">jsPerf</a> </p>
 <p>Muito simples de utilizar basta colar os códigos na seção <em>code snippets to compare</em> e também preencher alguns campos simples como nome do teste entre outros.</p>
 <p>Após isso clica em <em>save test case</em> e manda executar o teste e a comparação será realizada.</p>
 
